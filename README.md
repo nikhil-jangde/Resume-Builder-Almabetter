@@ -12,6 +12,8 @@ Stand out from the crowd and make a lasting impression with Resume Builder, the 
 
 Clone this repository in your local machine and install the needed dependencies
 
+Type **npm start** in terminal to start the application after installing the dependencies using **npm install <package_name>**
+
 ## Technologies and Libraries used
 
 - React
@@ -21,6 +23,85 @@ Clone this repository in your local machine and install the needed dependencies
 - jspdf
 - Material UI and Icons
 - Tailwing-css
+
+## Application Folder Structure
+
+```
+├── public/
+│	├── index.html
+│    	├──images/
+│		├── template1.png
+│		├── template2.png
+│		├── template3.png
+│		├── template4.png	
+├──src/
+│	├──App.js
+│	├──App.css
+│	├──App.test.js
+│	├──index.css
+│	├──index.js
+│	├──setupTests.js
+│	├──Components/
+│		├──images/
+│			├──LOGO.png
+│			├──Right.png
+│			├──aboutus.png
+│			├──download.png
+│			├──nodata.png
+│   	├── Education.jsx
+│		├──GettingStarted.jsx
+│		├──Keyskills.jsx
+│		├──Myresume.jsx
+│		├──PersonalInformation.jsx
+│		├──Workexperience.jsx
+│	├──Data/
+│		├──data.js
+│	├──Pages/
+│		├──About US/
+│			├──Aboutus.jsx
+│		├──Details Filing/
+│			├──Detailfilling.jsx
+│			├──sidebar.css 
+│		├──Home/
+│			├──TempleteCard.jsx
+│			├──Templetes.jsx
+│		├──Preview/
+│			├──Preview,jsx
+│	├──Redux/
+│		├──actions/
+│			├──actions.js
+│			├──saveresume.js
+│			├──setcontact.js
+│			├──seteducation.js
+│			├──setexperience.js
+│			├──setkeyskills.js
+│			├──settemplate.js
+│		├──constants/
+│			├──typeCodes.js
+│		├──reducers/
+│			├──initialState.js
+│			├──rootReducer.js
+│			├──saveresume.js
+│			├──setcontact.js
+│			├──seteducation.js
+│			├──setexperience.js
+│			├──setkeyskills.js
+│			├──settemplate.js
+│		├──store
+│			├──store.js
+│	├──Templetes/
+│		├──Resume1.css
+│		├──Resume1.jsx
+│		├──Resume2.jsx
+│		├──Resume3.css
+│		├──Resume3.jsx
+│		├──Resume4.css
+│		├──Resume4.jsx
+├──index.js   
+├──package-lock.json
+├──package.json
+└──tailwind.config.js
+```
 
 ## Components and Pages of Application:
 
@@ -43,6 +124,12 @@ Clone this repository in your local machine and install the needed dependencies
 **Abouts Us** 
 
 ![About Us](https://github.com/nikhil-jangde/Resume-Builder-Almabetter/assets/112394456/ca33b437-4bda-49f7-b899-ca5a3722f8e4)
+
+## Links for the project
+
+Deployment Link : https://resume-builder-almabetter-six.vercel.app/
+
+Youtube Link : https://youtu.be/uTCAhgiRXWU
 
 ## Team Memebers
 
